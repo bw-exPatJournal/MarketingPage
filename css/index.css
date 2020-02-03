@@ -171,6 +171,9 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+a :hover {
+  color: #D3D3D3;
+}
 button {
   background-color: #38A1DE;
   font-family: inherit;
@@ -180,9 +183,15 @@ button {
   border-radius: 2.5px;
   padding: 5px 20px;
 }
+button :hover {
+  cursor: pointer;
+  background-color: #FFFFFF;
+  color: #38A1DE;
+}
 header {
-  background-color: #222222;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/header-background.png") no-repeat bottom;
   color: #FFFFFF;
+  position: relative;
 }
 header nav {
   display: flex;
@@ -210,13 +219,22 @@ header div.header-message {
   align-items: center;
   text-align: center;
   height: 45rem;
+  width: 100%;
+}
+header div.header-message div {
+  text-shadow: 1px 1px #222222;
 }
 header div.header-message div h2 {
   font-size: 235%;
+  z-index: 1000000;
 }
 header div.header-message div p {
   margin-top: 10px;
   font-size: 150%;
+  text-align: left;
+}
+header div.header-message .header-message-about {
+  width: 40%;
 }
 .team-photos {
   display: flex;
@@ -236,5 +254,6 @@ header div.header-message div p {
   margin-top: 0.5rem;
 }
 .team-photos div p {
-  margin-bottom: 0.7rem;
+  margin: 0.3rem 0 0.5rem 0;
+  font-size: 105%;
 }

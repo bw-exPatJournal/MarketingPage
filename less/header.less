@@ -1,6 +1,8 @@
 header {
-    background-color:@divBackground;
+    // background-color:@divBackground;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/header-background.png") no-repeat bottom;
     color:@divText;
+    position:relative;
     nav {
         display:flex;
         justify-content:space-between;
@@ -23,14 +25,21 @@ header {
         .centerContent();
         text-align:center;
         height:45rem;
+        width:100%;
         div {
+            text-shadow: 1px 1px @divBackground;
             h2 {
                 font-size:235%;
+                z-index:1000000;
             }
             p {
                 margin-top:10px;
                 font-size:150%;
+                text-align:left;
             }
+        }
+        .header-message-about {
+            width:40%;
         }
     }
 }
