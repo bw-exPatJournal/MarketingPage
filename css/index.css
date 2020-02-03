@@ -166,6 +166,58 @@ h2 {
   font-family: 'Noto Serif', serif;
   font-weight: bold;
 }
+a {
+  font-family: inherit;
+  color: inherit;
+  text-decoration: inherit;
+}
+button {
+  background-color: #38A1DE;
+  font-family: inherit;
+  font-size: 110%;
+  color: inherit;
+  border: none;
+  border-radius: 2.5px;
+  padding: 5px 20px;
+}
+header {
+  background-color: #222222;
+  color: #FFFFFF;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 15px 15px;
+}
+header nav div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav div h1.logo {
+  font-size: 225%;
+}
+header nav div div {
+  font-size: 120%;
+  margin: 0 15px;
+}
+header nav div div button {
+  width: 200px;
+}
+header div.header-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 45rem;
+}
+header div.header-message div h2 {
+  font-size: 235%;
+}
+header div.header-message div p {
+  margin-top: 10px;
+  font-size: 150%;
+}
 .team-photos {
   display: flex;
   flex-wrap: wrap;
