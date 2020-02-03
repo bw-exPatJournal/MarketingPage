@@ -156,7 +156,7 @@ html {
 }
 body {
   background-color: #FFFFFF;
-  font-family: 'Lato', sans-serif;
+  font-family: -apple-system-body, BlinkMacSystemFont, 'Lato', sans-serif;
   color: #222222;
 }
 h1 {
@@ -177,7 +177,7 @@ a :hover {
 button {
   background-color: #38A1DE;
   font-family: inherit;
-  font-size: 110%;
+  font-size: 100%;
   color: inherit;
   border: none;
   border-radius: 2.5px;
@@ -189,7 +189,7 @@ button :hover {
   color: #38A1DE;
 }
 header {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/header-background.png") no-repeat bottom;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/header-background.png") no-repeat bottom;
   color: #FFFFFF;
   position: relative;
 }
@@ -221,12 +221,8 @@ header div.header-message {
   height: 45rem;
   width: 100%;
 }
-header div.header-message div {
-  text-shadow: 1px 1px #222222;
-}
 header div.header-message div h2 {
   font-size: 235%;
-  z-index: 1000000;
 }
 header div.header-message div p {
   margin-top: 10px;
@@ -235,6 +231,44 @@ header div.header-message div p {
 }
 header div.header-message .header-message-about {
   width: 40%;
+}
+section.left-container,
+section.right-container {
+  background-color: #222222;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #FFFFFF;
+}
+section.left-container div.screenshots,
+section.right-container div.screenshots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+  width: 40%;
+}
+section.left-container div.screenshots div,
+section.right-container div.screenshots div {
+  margin-right: 2.5rem;
+}
+section.left-container div.text,
+section.right-container div.text {
+  width: 40%;
+  margin: 5rem;
+}
+section.left-container div.text h2,
+section.right-container div.text h2 {
+  font-size: 250%;
+}
+section.left-container div.text p,
+section.right-container div.text p {
+  margin-top: 2rem;
+  font-size: 150%;
+  width: 80%;
 }
 .team-photos {
   display: flex;
