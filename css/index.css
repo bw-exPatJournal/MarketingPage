@@ -222,12 +222,14 @@ header div.header-message {
   width: 100%;
 }
 header div.header-message div h2 {
-  font-size: 235%;
+  font-size: 300%;
 }
 header div.header-message div p {
   margin-top: 10px;
-  font-size: 150%;
   text-align: left;
+  word-spacing: 1px;
+  font-size: 2.4rem;
+  font-weight: 300;
 }
 header div.header-message .header-message-about {
   width: 40%;
@@ -249,12 +251,18 @@ footer div h1 {
   margin: 5rem 0 5rem 0;
 }
 footer div h2 {
-  font-size: 250%;
+  font-size: 300%;
   margin-bottom: 2.5rem;
 }
 footer div button {
   width: 30%;
   margin-bottom: 10rem;
+  font-size: 120%;
+}
+footer div p {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  line-height: 1.1em;
 }
 section.left-container,
 section.right-container {
