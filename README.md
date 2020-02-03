@@ -8,7 +8,8 @@
 * [ ] Build header
 * [ ] Build three body divs
 * [ ] Build footer
-* [ ] Download image off Figma and put them on site
+* [x] Download images off Figma
+* [ ] Implement downloaded images
 
 
 ## CSS
