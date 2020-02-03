@@ -232,6 +232,30 @@ header div.header-message div p {
 header div.header-message .header-message-about {
   width: 40%;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-top: 3rem;
+  background: url("../img/footer-background.png");
+}
+footer div {
+  width: 100%;
+}
+footer div h1 {
+  font-size: 500%;
+  margin: 5rem 0 5rem 0;
+}
+footer div h2 {
+  font-size: 250%;
+  margin-bottom: 2.5rem;
+}
+footer div button {
+  width: 30%;
+  margin-bottom: 10rem;
+}
 section.left-container,
 section.right-container {
   background-color: #222222;
