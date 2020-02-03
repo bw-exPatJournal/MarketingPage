@@ -144,9 +144,9 @@ table {
 @font-face {
   font-family: 'Noto Serif';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-display: swap;
-  src: local('Noto Serif'), local('NotoSerif'), url(https://fonts.gstatic.com/s/notoserif/v8/ga6Iaw1J5X9T9RW6j9bNfFcWbQ.ttf) format('truetype');
+  src: local('Noto Serif Bold'), local('NotoSerif-Bold'), url(https://fonts.gstatic.com/s/notoserif/v8/ga6Law1J5X9T9RW6j9bNdOwzfReedA.ttf) format('truetype');
 }
 * {
   box-sizing: border-box;
@@ -157,4 +157,32 @@ html {
 body {
   background-color: #FFFFFF;
   font-family: 'Lato', sans-serif;
+  color: #222222;
+}
+h1 {
+  font-family: 'Lobster', cursive;
+}
+h2 {
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
+}
+.team-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team-photos div {
+  background-color: #FDFAFA;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.11), 0px 1px 3px rgba(0, 0, 0, 0.08);
+  width: 150px;
+  text-align: center;
+  margin: 20px 10px;
+}
+.team-photos div h2 {
+  font-size: 120%;
+  margin-top: 0.5rem;
+}
+.team-photos div p {
+  margin-bottom: 0.7rem;
 }
