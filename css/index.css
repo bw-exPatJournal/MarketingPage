@@ -235,6 +235,23 @@ header div.header-message div p {
 header div.header-message .header-message-about {
   width: 40%;
 }
+body section.moreaboutus {
+  height: 200px;
+  background-color: darkslategray;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body section.moreaboutus div {
+  justify-self: center;
+}
+body section.moreaboutus div p {
+  font-size: 3rem;
+  color: white;
+}
+body section.muchmore div p {
+  font-size: 3rem;
+}
 footer {
   display: flex;
   justify-content: center;
