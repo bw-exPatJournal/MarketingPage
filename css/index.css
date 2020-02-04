@@ -227,9 +227,10 @@ header div.header-message div h2 {
 header div.header-message div p {
   margin-top: 10px;
   text-align: left;
-  word-spacing: 1px;
-  font-size: 2.4rem;
+  word-spacing: 1.5px;
+  font-size: 16px;
   font-weight: 300;
+  line-height: 1.3;
 }
 header div.header-message .header-message-about {
   width: 40%;
