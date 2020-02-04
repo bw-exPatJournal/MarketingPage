@@ -330,6 +330,19 @@ section.left-container div.screenshots div,
 section.right-container div.screenshots div {
   margin-right: 2.5rem;
 }
+@media screen and (max-width:500px) {
+  section.left-container div.screenshots div,
+  section.right-container div.screenshots div {
+    margin: 0;
+  }
+}
+@media screen and (max-width:500px) {
+  section.left-container div.screenshots,
+  section.right-container div.screenshots {
+    width: 100%;
+    margin-top: 2rem 0 0 0;
+  }
+}
 section.left-container div.text,
 section.right-container div.text {
   width: 40%;
@@ -339,11 +352,52 @@ section.left-container div.text h2,
 section.right-container div.text h2 {
   font-size: 250%;
 }
+@media screen and (max-width:500px) {
+  section.left-container div.text h2,
+  section.right-container div.text h2 {
+    text-align: center;
+    font-size: 300%;
+  }
+}
 section.left-container div.text p,
 section.right-container div.text p {
   margin-top: 2rem;
   font-size: 150%;
   width: 80%;
+}
+@media screen and (max-width:500px) {
+  section.left-container div.text p,
+  section.right-container div.text p {
+    width: 100%;
+    font-size: 200%;
+  }
+}
+@media screen and (max-width:500px) {
+  section.left-container div.text,
+  section.right-container div.text {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:500px) {
+  section.left-container.right-container div.screenshots div,
+  section.right-container.right-container div.screenshots div {
+    margin-top: 2rem;
+  }
+  section.left-container.right-container div.screenshots div:last-child,
+  section.right-container.right-container div.screenshots div:last-child {
+    display: none;
+  }
+}
+@media screen and (max-width:500px) {
+  section.left-container.left-container div.screenshots div:first-child,
+  section.right-container.left-container div.screenshots div:first-child {
+    display: none;
+  }
 }
 .team-photos {
   display: flex;

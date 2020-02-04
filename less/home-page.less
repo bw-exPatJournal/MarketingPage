@@ -13,6 +13,13 @@ section.left-container, section.right-container {
         width:40%;
         div {
             margin-right:2.5rem;
+            @media @iPhone {
+                margin:0;
+            }
+        }
+        @media @iPhone {
+            width:100%;
+            margin-top:2rem 0 0 0;
         }
     }
     div.text {
@@ -20,11 +27,47 @@ section.left-container, section.right-container {
         margin:5rem;
         h2 {
             font-size:250%;
+            @media @iPhone {
+                text-align:center;
+                font-size:300%;
+            }
         }
         p {
             margin-top:2rem;
             font-size:150%;
             width:80%;
+            @media @iPhone {
+                width:100%;
+                font-size:200%;
+            }
+        }
+        @media @iPhone {
+            width:100%;
+            margin:2rem 0 0 0;
+            .centerContent();
+            flex-direction:column;
+        }
+    }
+    // Alignment-specific media queries
+    &.right-container {
+        @media @iPhone {
+            div.screenshots {
+                div {
+                    margin-top:2rem;
+                    &:last-child {
+                        display:none;
+                    }
+                }
+            }
+        }
+    }
+    &.left-container {
+        @media @iPhone {
+            div.screenshots {
+                div:first-child {
+                    display:none;
+                }
+            }
         }
     }
 }
