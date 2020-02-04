@@ -1,7 +1,9 @@
+// Alexander Karren
 .team-photos {
     display:flex;
     flex-wrap:wrap;
     justify-content:space-evenly;
+    // Team Member Card
     div {
         background-color:@teamBackground;
         border-radius:5px;
@@ -12,10 +14,22 @@
         h2 {
             font-size:150%;
             margin-top:.5rem;
+            @media @iPhone {
+                font-size:250%;
+            }
         }
         p {
             margin: .3rem 0 .5rem 0;
             font-size:120%;
+            @media @iPhone {
+                font-size:200%;
+            }
+        }
+        @media @iPhone {
+            width:90%;
+            img {
+                width:100%;
+            }
         }
     }
 }

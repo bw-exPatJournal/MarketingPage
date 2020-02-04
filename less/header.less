@@ -62,14 +62,22 @@ header {
                 font-weight: 300;
             }
             @media @iPhone {
-                width:80%;
+                width:100%;
             }
-        }
-        .header-message-about {
-            width:40%;
         }
         @media @iPhone {
             height:20rem;
         }
+    }
+    &.header-about {
+       div.header-message {
+           height:40rem;
+           div {
+               width:60%;
+               @media @iPhone {
+                   width:100%;
+               }
+           }
+       }
     }
 }

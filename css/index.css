@@ -171,7 +171,7 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
-a :hover {
+a:hover {
   color: #D3D3D3;
 }
 button {
@@ -183,7 +183,7 @@ button {
   border-radius: 2.5px;
   padding: 5px 20px;
 }
-button :hover {
+button:hover {
   cursor: pointer;
   background-color: #FFFFFF;
   color: #38A1DE;
@@ -265,15 +265,23 @@ header div.header-message div p {
 }
 @media screen and (max-width:500px) {
   header div.header-message div {
-    width: 80%;
+    width: 100%;
   }
-}
-header div.header-message .header-message-about {
-  width: 40%;
 }
 @media screen and (max-width:500px) {
   header div.header-message {
     height: 20rem;
+  }
+}
+header.header-about div.header-message {
+  height: 40rem;
+}
+header.header-about div.header-message div {
+  width: 60%;
+}
+@media screen and (max-width:500px) {
+  header.header-about div.header-message div {
+    width: 100%;
   }
 }
 footer {
@@ -390,6 +398,7 @@ section.right-container div.text p {
   section.right-container div.text p {
     width: 100%;
     font-size: 200%;
+    text-align: center;
   }
 }
 @media screen and (max-width:500px) {
@@ -436,7 +445,25 @@ section.right-container div.text p {
   font-size: 150%;
   margin-top: 0.5rem;
 }
+@media screen and (max-width:500px) {
+  .team-photos div h2 {
+    font-size: 250%;
+  }
+}
 .team-photos div p {
   margin: 0.3rem 0 0.5rem 0;
   font-size: 120%;
+}
+@media screen and (max-width:500px) {
+  .team-photos div p {
+    font-size: 200%;
+  }
+}
+@media screen and (max-width:500px) {
+  .team-photos div {
+    width: 90%;
+  }
+  .team-photos div img {
+    width: 100%;
+  }
 }
