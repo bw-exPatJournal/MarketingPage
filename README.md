@@ -19,9 +19,11 @@
 * [x] Style footer
 
 ## Alex
-* [ ] Design mobile versions of index.html and team.html
-* [ ] design contact.html
-* [ ] style contact.html
+* [x] Design mobile versions of index.html and team.html
+* [x] design contact.html
+* [x] Design mobile version of contact.html
+* [x] style contact.html
+* [ ] Design mobile version of about.html
 
 ## Ous
 * [ ] design about.html
@@ -31,13 +33,13 @@
 ### HTML / CSS
 * [ ] CSS fundamentals are working properly (flexbox)
 ### Responsiveness
-* [ ] Phone views look professional at 500px
-* [ ] Desktop views look professional at 1000px and above
+* [x] Phone views look professional at 500px
+* [x] Desktop views look professional at 1000px and above
 * [ ] Tablet views look professional at 800px and above
 * [*] No horizontal scrollbars exist
 * [x] Responsive units are used for font-sizing
 ### Preprocessing
 * [ ] Code is easy to read
-* [ ] Separate less files for different portions of site
+* [x] Separate less files for different portions of site
 * [x] Files succesffuly imported into index.less
 * [x] Use mixins and variables
