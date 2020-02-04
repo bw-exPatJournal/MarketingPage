@@ -166,6 +166,9 @@ h2 {
   font-family: 'Noto Serif', serif;
   font-weight: bold;
 }
+section {
+  margin-top: 3rem;
+}
 a {
   font-family: inherit;
   color: inherit;
@@ -189,7 +192,7 @@ button:hover {
   color: #38A1DE;
 }
 header {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/header-background.png") no-repeat bottom;
+  background-color: #222222;
   color: #FFFFFF;
   position: relative;
 }
@@ -273,16 +276,23 @@ header div.header-message div p {
     height: 20rem;
   }
 }
-header.header-about div.header-message {
-  height: 40rem;
+header.header-home {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/header-background.png") no-repeat bottom;
 }
-header.header-about div.header-message div {
+header.header-team {
+  background: url("../img/header-background-team.png") no-repeat bottom;
+}
+header.header-team .header-message div {
   width: 60%;
 }
 @media screen and (max-width:500px) {
-  header.header-about div.header-message div {
+  header.header-team .header-message div {
     width: 100%;
+    height: 40rem;
   }
+}
+header.header-contact {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/header-background-contact.png") no-repeat top;
 }
 footer {
   display: flex;
