@@ -305,21 +305,21 @@ section.right-container div.text p {
 .team-photos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .team-photos div {
   background-color: #FDFAFA;
   border-radius: 5px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.11), 0px 1px 3px rgba(0, 0, 0, 0.08);
-  width: 150px;
+  width: 200px;
   text-align: center;
   margin: 20px 10px;
 }
 .team-photos div h2 {
-  font-size: 120%;
+  font-size: 150%;
   margin-top: 0.5rem;
 }
 .team-photos div p {
   margin: 0.3rem 0 0.5rem 0;
-  font-size: 105%;
+  font-size: 120%;
 }
