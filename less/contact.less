@@ -1,0 +1,47 @@
+section.email {
+    background-color:@divBackground;
+    color:@divText;
+    margin-top:3rem;
+    width:100%;
+    .centerContent();
+    padding:2rem;
+    flex-wrap:wrap;
+    div {
+        // Email Icon
+        &:first-child {
+            font-size:1600%;
+            width:20%;
+            .centerContent();
+            @media @iPhone {
+                width:100%;
+            }
+        }
+        &:last-child {
+            width:80%;
+            h2 {
+                font-size:250%;
+                margin-bottom:1.5rem;
+                @media @iPhone {
+                    font-size:300%;
+                    text-align:center;
+                }
+            }
+            p {
+                margin-top:.5rem;
+                font-size:150%;
+                width:80%;
+                @media @iPhone {
+                    font-size:200%;
+                    width:100%;
+                    margin-top:1rem;
+                }
+            }
+            @media @iPhone {
+                width:100%;
+            }
+        }
+    }
+    @media @iPhone {
+        flex-direction:column;
+    }
+}

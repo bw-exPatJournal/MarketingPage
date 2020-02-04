@@ -166,9 +166,6 @@ h2 {
   font-family: 'Noto Serif', serif;
   font-weight: bold;
 }
-section {
-  margin-top: 3rem;
-}
 a {
   font-family: inherit;
   color: inherit;
@@ -183,7 +180,7 @@ button {
   font-size: 100%;
   color: inherit;
   border: none;
-  border-radius: 2.5px;
+  border-radius: 3px;
   padding: 5px 20px;
 }
 button:hover {
@@ -288,6 +285,10 @@ header.header-team .header-message div {
 @media screen and (max-width:500px) {
   header.header-team .header-message div {
     width: 100%;
+  }
+}
+@media screen and (max-width:500px) {
+  header.header-team .header-message {
     height: 40rem;
   }
 }
@@ -475,5 +476,63 @@ section.right-container div.text p {
   }
   .team-photos div img {
     width: 100%;
+  }
+}
+section.email {
+  background-color: #222222;
+  color: #FFFFFF;
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+section.email div:first-child {
+  font-size: 1600%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width:500px) {
+  section.email div:first-child {
+    width: 100%;
+  }
+}
+section.email div:last-child {
+  width: 80%;
+}
+section.email div:last-child h2 {
+  font-size: 250%;
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width:500px) {
+  section.email div:last-child h2 {
+    font-size: 300%;
+    text-align: center;
+  }
+}
+section.email div:last-child p {
+  margin-top: 0.5rem;
+  font-size: 150%;
+  width: 80%;
+}
+@media screen and (max-width:500px) {
+  section.email div:last-child p {
+    font-size: 200%;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width:500px) {
+  section.email div:last-child {
+    width: 100%;
+  }
+}
+@media screen and (max-width:500px) {
+  section.email {
+    flex-direction: column;
   }
 }
