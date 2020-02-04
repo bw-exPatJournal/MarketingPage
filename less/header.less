@@ -11,14 +11,37 @@ header {
             .centerContent();
             h1.logo {
                 font-size:225%;
+                @media @iPhone {
+                    padding:1rem;
+                    font-size:325%;
+                }
             }
+            // Links
             div {
                 font-size:120%;
                 margin:0 15px;
                 button {
                     width:200px;
+                    @media @iPhone {
+                        width:100%;
+                        height:4rem;
+                    }
+                }
+                @media @iPhone {
+                    border-top:solid 1px @divText;
+                    font-size:150%;
+                    width:100%;
+                    padding:2rem;
                 }
             }
+            @media @iPhone {
+                flex-direction:column;
+            }
+        }
+        @media @iPhone {
+            flex-direction:column;
+            justify-content:center;
+            padding:0;
         }
     }
     div.header-message {
@@ -33,14 +56,20 @@ header {
             }
             p {
                 margin-top:10px;
-                text-align:left;
+                text-align:center;
                 word-spacing: 1px;
                 font-size: 2.4rem;
                 font-weight: 300;
             }
+            @media @iPhone {
+                width:80%;
+            }
         }
         .header-message-about {
             width:40%;
+        }
+        @media @iPhone {
+            height:20rem;
         }
     }
 }
