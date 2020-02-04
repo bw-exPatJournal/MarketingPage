@@ -90,7 +90,6 @@ video {
   font: inherit;
   vertical-align: baseline;
   max-width: 100%;
-  border: gray 1px solid;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -302,10 +301,31 @@ footer div button {
   margin-bottom: 10rem;
   font-size: 120%;
 }
+@media screen and (max-width:500px) {
+  footer div button {
+    width: 80%;
+    font-size: 150%;
+    height: 4rem;
+    margin-bottom: 5rem;
+  }
+}
 footer div p {
   margin-bottom: 3rem;
   font-size: 2rem;
   line-height: 1.1em;
+}
+@media screen and (max-width:500px) {
+  footer div p {
+    width: 90%;
+  }
+}
+@media screen and (max-width:500px) {
+  footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 section.left-container,
 section.right-container {
@@ -384,9 +404,9 @@ section.right-container div.text p {
   }
 }
 @media screen and (max-width:500px) {
-  section.left-container.right-container div.screenshots div,
-  section.right-container.right-container div.screenshots div {
-    margin-top: 2rem;
+  section.left-container.right-container,
+  section.right-container.right-container {
+    flex-direction: column-reverse;
   }
   section.left-container.right-container div.screenshots div:last-child,
   section.right-container.right-container div.screenshots div:last-child {

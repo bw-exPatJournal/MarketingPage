@@ -1,4 +1,5 @@
 footer {
+    // Alexander Karren
     .centerContent();
     color:white;
     text-align:center;
@@ -19,12 +20,26 @@ footer {
             width:30%;
             margin-bottom:10rem;
             font-size:120%;
+            // Alexander Karen
+            @media @iPhone {
+                width:80%;
+                font-size:150%;
+                height:4rem;
+                margin-bottom:5rem;
+            }
         }
-
-        p{
+        // Ous Bayaa
+        p {
             margin-bottom: 3rem;
             font-size: 2rem;
             line-height: 1.1em;
+            @media @iPhone {
+                width:90%;
+            }
+        }
+        @media @iPhone {
+            .centerContent();
+            flex-direction:column;
         }
     }
 }
