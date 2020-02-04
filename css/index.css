@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v22/neILzCirqoswsqX9zoKmNg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('PT Serif Bold'), local('PTSerif-Bold'), url(https://fonts.gstatic.com/s/ptserif/v11/EJRSQgYoZZY2vCFuvAnt66qSVy4.ttf) format('truetype');
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -127,27 +148,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Lobster';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v22/neILzCirqoswsqX9zoKmNg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Noto Serif';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local('Noto Serif Bold'), local('NotoSerif-Bold'), url(https://fonts.gstatic.com/s/notoserif/v8/ga6Law1J5X9T9RW6j9bNdOwzfReedA.ttf) format('truetype');
-}
 * {
   box-sizing: border-box;
 }
@@ -163,7 +163,7 @@ h1 {
   font-family: 'Lobster', cursive;
 }
 h2 {
-  font-family: 'Noto Serif', serif;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
 }
 a {
@@ -260,7 +260,7 @@ header div.header-message div p {
   margin-top: 10px;
   text-align: center;
   word-spacing: 1px;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 300;
 }
 @media screen and (max-width:500px) {
@@ -277,7 +277,7 @@ header.header-home {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/header-background.png") no-repeat bottom;
 }
 header.header-team {
-  background: url("../img/header-background-team.png") no-repeat bottom;
+  background: url("../img/header-background-team.png") no-repeat center;
 }
 header.header-team .header-message div {
   width: 60%;
@@ -289,7 +289,7 @@ header.header-team .header-message div {
 }
 @media screen and (max-width:500px) {
   header.header-team .header-message {
-    height: 40rem;
+    height: 30rem;
   }
 }
 header.header-contact {
@@ -401,7 +401,8 @@ section.right-container div.text h2 {
 section.left-container div.text p,
 section.right-container div.text p {
   margin-top: 2rem;
-  font-size: 150%;
+  font-size: 160%;
+  line-height: 2rem;
   width: 80%;
 }
 @media screen and (max-width:500px) {
@@ -516,7 +517,8 @@ section.email div:last-child h2 {
 }
 section.email div:last-child p {
   margin-top: 0.5rem;
-  font-size: 150%;
+  font-size: 160%;
+  line-height: 2rem;
   width: 80%;
 }
 @media screen and (max-width:500px) {

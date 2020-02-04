@@ -44,6 +44,7 @@ header {
             padding:0;
         }
     }
+    // Header Text
     div.header-message {
         .centerContent();
         text-align:center;
@@ -58,7 +59,7 @@ header {
                 margin-top:10px;
                 text-align:center;
                 word-spacing: 1px;
-                font-size: 2.4rem;
+                font-size: 2rem;
                 font-weight: 300;
             }
             @media @iPhone {
@@ -75,7 +76,7 @@ header {
     }
     // Stylings for header on team page
     &.header-team {
-        background:url("../img/header-background-team.png") no-repeat bottom;
+        background:url("../img/header-background-team.png") no-repeat center;
         .header-message {
             div {
                 width:60%;
@@ -84,10 +85,11 @@ header {
                 }
             }
             @media @iPhone {
-                height:40rem;
+                height:30rem;
             }
         }
     }
+    // Stylings for header on contact page
     &.header-contact {
         background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/header-background-contact.png") no-repeat top;
     }
