@@ -238,8 +238,8 @@ header div.header-message .header-message-about {
 body section.moreaboutus {
   height: 200px;
   background-color: #222222;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -251,12 +251,30 @@ body section.moreaboutus div p {
   font-size: 2.5rem;
   color: white;
 }
+body section.moreaboutus div i {
+  font-size: 10rem;
+  color: pink;
+}
+body section.muchmore {
+  background-color: #222222;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+body section.muchmore div {
+  justify-self: center;
+}
 body section.muchmore div p {
   font-size: 3rem;
-  background-color: #222222;
   color: whitesmoke;
-  text-align: center;
   font-size: 25px;
+}
+body section.muchmore div i {
+  font-size: 10rem;
+  color: dodgerblue;
 }
 footer {
   display: flex;
