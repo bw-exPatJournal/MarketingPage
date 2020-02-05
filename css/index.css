@@ -270,7 +270,10 @@ body section.moreaboutus div {
   justify-self: center;
 }
 body section.moreaboutus div p {
-  font-size: 200%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.3;
+  word-spacing: 1.5px;
   color: white;
 }
 body section.moreaboutus div i {
@@ -303,9 +306,10 @@ body section.muchmore div {
   justify-self: center;
 }
 body section.muchmore div p {
-  font-size: 3rem;
+  font-size: 16px;
   color: whitesmoke;
-  font-size: 200%;
+  font-weight: 300;
+  line-height: 1.3;
 }
 body section.muchmore div i {
   font-size: 10rem;
