@@ -235,34 +235,52 @@ header div.header-message div p {
 header div.header-message .header-message-about {
   width: 40%;
 }
+body section div.headerh2 {
+  align-self: center;
+}
+body section div.headerh2 h2 {
+  color: white;
+  font-size: 250%;
+}
+body section div.containsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+body section div.containsection div {
+  justify-self: center;
+}
 body section.moreaboutus {
   height: 200px;
   background-color: #222222;
   margin-top: 30px;
   margin-bottom: 30px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  flex-direction: column;
 }
 body section.moreaboutus div {
   justify-self: center;
 }
 body section.moreaboutus div p {
-  font-size: 2.5rem;
+  font-size: 200%;
   color: white;
 }
 body section.moreaboutus div i {
   font-size: 10rem;
   color: pink;
 }
+body section.moreaboutus div.food {
+  flex-basis: 40%;
+}
 body section.muchmore {
   background-color: #222222;
   height: 200px;
   margin-top: 30px;
-  margin-bottom: 30px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  flex-direction: column;
 }
 body section.muchmore div {
   justify-self: center;
@@ -270,11 +288,17 @@ body section.muchmore div {
 body section.muchmore div p {
   font-size: 3rem;
   color: whitesmoke;
-  font-size: 25px;
+  font-size: 200%;
 }
 body section.muchmore div i {
   font-size: 10rem;
   color: dodgerblue;
+}
+body section.muchmore div.containsection {
+  flex-direction: row-reverse;
+}
+body section.muchmore div.share {
+  flex-basis: 40%;
 }
 footer {
   display: flex;

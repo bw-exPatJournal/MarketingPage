@@ -47,6 +47,24 @@ header {
 }
 
 body {
+    section {
+        div.headerh2 {
+            align-self: center;
+            h2 {
+                color: white;
+                font-size: 250%;
+            }
+        }
+        div.containsection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            div {
+                justify-self: center;
+            }
+        }
+    }
     section.moreaboutus {
         height: 200px;
         background-color: #222222;
@@ -54,40 +72,48 @@ body {
         margin-bottom: 30px;
         display: flex;
         // flex-direction: column;
-        align-items: center;
+        // align-items: center;
         justify-content: space-around;
+        flex-direction: column;
         div {
             justify-self: center;
             p {
-                font-size: 2.5rem;
+                font-size: 200%;
                 color: white;
             }
-            i{
+            i {
                 font-size:10rem;
                 color: pink;
             }
+        }
+        div.food {
+            flex-basis: 40%;
         }
     }
     section.muchmore {
         background-color: #222222;
         height: 200px;
         margin-top: 30px;
-        margin-bottom: 30px;
         display: flex;
-        // flex-direction: column;
-        align-items: center;
         justify-content: space-around;
+        flex-direction: column;
         div {
             justify-self: center;
             p {
                 font-size: 3rem;
                 color: whitesmoke;
-                font-size: 25px;
+                font-size: 200%;
             }
-            i{
+            i {
                 font-size: 10rem;
                 color: dodgerblue;
             }
+        }
+        div.containsection {
+            flex-direction: row-reverse;
+        }
+        div.share {
+            flex-basis: 40%;
         }
     }
 }
