@@ -251,6 +251,12 @@ body section div.containsection {
 body section div.containsection div {
   justify-self: center;
 }
+@media screen and (max-width:500px) {
+  body section div.containsection {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 body section.moreaboutus {
   height: 200px;
   background-color: #222222;
@@ -273,6 +279,17 @@ body section.moreaboutus div i {
 }
 body section.moreaboutus div.food {
   flex-basis: 40%;
+}
+@media screen and (max-width:500px) {
+  body section.moreaboutus div.food {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width:500px) {
+  body section.moreaboutus {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
 }
 body section.muchmore {
   background-color: #222222;
@@ -297,8 +314,24 @@ body section.muchmore div i {
 body section.muchmore div.containsection {
   flex-direction: row-reverse;
 }
+@media screen and (max-width:500px) {
+  body section.muchmore div.containsection {
+    flex-direction: column;
+  }
+}
 body section.muchmore div.share {
   flex-basis: 40%;
+}
+@media screen and (max-width:500px) {
+  body section.muchmore div.share {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width:500px) {
+  body section.muchmore {
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
 }
 footer {
   display: flex;

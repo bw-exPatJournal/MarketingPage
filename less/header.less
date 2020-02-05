@@ -63,6 +63,10 @@ body {
             div {
                 justify-self: center;
             }
+            @media @iPhone {
+                flex-direction: column;
+                text-align: center;
+            }
         }
     }
     section.moreaboutus {
@@ -88,6 +92,13 @@ body {
         }
         div.food {
             flex-basis: 40%;
+            @media @iPhone {
+                padding-top: 20px;
+            }
+        }
+        @media @iPhone {
+            margin-top: 10px;
+            margin-bottom: 0px;
         }
     }
     section.muchmore {
@@ -111,9 +122,19 @@ body {
         }
         div.containsection {
             flex-direction: row-reverse;
+            @media @iPhone {
+                flex-direction: column;
+            }
         }
         div.share {
             flex-basis: 40%;
+            @media @iPhone {
+                padding-top: 20px;
+            }
+        }
+        @media @iPhone {
+            margin-top: 10px;
+            margin-bottom: 0px;
         }
     }
 }
