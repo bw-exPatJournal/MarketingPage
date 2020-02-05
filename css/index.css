@@ -237,7 +237,9 @@ header div.header-message .header-message-about {
 }
 body section.moreaboutus {
   height: 200px;
-  background-color: darkslategray;
+  background-color: #222222;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -246,11 +248,15 @@ body section.moreaboutus div {
   justify-self: center;
 }
 body section.moreaboutus div p {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
 }
 body section.muchmore div p {
   font-size: 3rem;
+  background-color: #222222;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 25px;
 }
 footer {
   display: flex;
