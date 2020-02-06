@@ -12,7 +12,7 @@
 * [x] Implement downloaded images
 
 ## CSS
-* [ ] Use Google Fonts to import Lobster (logo font), New York Medium (heading font), SF Pro Display (body font)
+* [x] Use Google Fonts to import Lobster (logo font), New York Medium (heading font), SF Pro Display (body font)
 * [x] Style nav, align items
 * [x] Style header, center items
 * [x] Flex-style body divs
@@ -39,15 +39,14 @@
 * [*] No horizontal scrollbars exist
 * [x] Responsive units are used for font-sizing
 ### Preprocessing
-* [ ] Code is easy to read
+* [x] Code is easy to read
 * [x] Separate less files for different portions of site
 * [x] Files succesffuly imported into index.less
 * [x] Use mixins and variables
 
 ## Finishing Touches
-* [ ] Attach standard h2 sizes to variable
-* [ ] Attach standard p sizes to variable
-* [ ] Attach standard mobile h2 sizes to variable
-* [ ] Attach standard mobile p sizes to variable
-* [ ] Move CSS for separate pages that are the same into one page
+* [x] Attach standard h2 sizes to variable
+* [x] Attach standard p sizes to variable
+* [x] Attach standard mobile h2 sizes to variable
+* [x] Attach standard mobile p sizes to variable
 * [ ] Implement high quality mobile screenshots
