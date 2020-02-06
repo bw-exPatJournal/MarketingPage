@@ -13,6 +13,13 @@ section.left-container, section.right-container {
         width:40%;
         div {
             margin-right:2.5rem;
+            i {
+                font-size:@iconSize;
+                color:pink;
+                &.fa-user-tie {
+                    color: dodgerblue;
+                }
+            }
             @media @iPhone {
                 margin:0;
             }
@@ -26,20 +33,20 @@ section.left-container, section.right-container {
         width:40%;
         margin:5rem;
         h2 {
-            font-size:250%;
+            font-size:@h2Size;
             @media @iPhone {
                 text-align:center;
-                font-size:300%;
+                font-size:@h2SizeM;
             }
         }
         p {
             margin-top:2rem;
-            font-size:160%;
+            font-size:@pSize;
             line-height: 2rem;
             width:80%;
             @media @iPhone {
                 width:100%;
-                font-size:200%;
+                font-size:@pSizeM;
                 text-align:center;
             }
         }

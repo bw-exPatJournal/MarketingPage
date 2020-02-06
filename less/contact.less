@@ -10,7 +10,7 @@ section.email {
     div {
         // Email Icon
         &:first-child {
-            font-size:1600%;
+            font-size:@iconSize;
             width:20%;
             .centerContent();
             @media @iPhone {
@@ -20,20 +20,20 @@ section.email {
         &:last-child {
             width:80%;
             h2 {
-                font-size:250%;
+                font-size:@h2Size;
                 margin-bottom:1.5rem;
                 @media @iPhone {
-                    font-size:300%;
+                    font-size:@h2SizeM;
                     text-align:center;
                 }
             }
             p {
                 margin-top:.5rem;
-                font-size:160%;
+                font-size:@pSize;
                 line-height: 2rem;
                 width:80%;
                 @media @iPhone {
-                    font-size:200%;
+                    font-size:@pSizeM;
                     width:100%;
                     margin-top:1rem;
                 }
