@@ -274,10 +274,10 @@ header div.header-message div p {
   }
 }
 header.header-home {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header-background.png) no-repeat bottom;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header-background.jpg) no-repeat bottom;
 }
 header.header-team {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header-background-team.png) no-repeat top;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header-background-team.jpg) no-repeat top;
 }
 header.header-team .header-message div {
   width: 60%;
@@ -293,10 +293,10 @@ header.header-team .header-message div {
   }
 }
 header.header-contact {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header-background-contact.png) no-repeat top;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header-background-contact.jpg) no-repeat top;
 }
 header.header-about {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header-background-about.png) no-repeat center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header-background-about.jpg) no-repeat center;
 }
 footer {
   display: flex;
