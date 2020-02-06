@@ -188,6 +188,74 @@ button :hover {
   background-color: #FFFFFF;
   color: #38A1DE;
 }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-top: 3rem;
+  background: url("../img/footer-background.png");
+}
+footer div {
+  width: 100%;
+}
+footer div h1 {
+  font-size: 500%;
+  margin: 5rem 0 5rem 0;
+}
+footer div h2 {
+  font-size: 300%;
+  margin-bottom: 2.5rem;
+}
+footer div button {
+  width: 30%;
+  margin-bottom: 10rem;
+  font-size: 120%;
+}
+footer div p {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  line-height: 1.1em;
+}
+section.left-container,
+section.right-container {
+  background-color: #222222;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #FFFFFF;
+}
+section.left-container div.screenshots,
+section.right-container div.screenshots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+  width: 40%;
+}
+section.left-container div.screenshots div,
+section.right-container div.screenshots div {
+  margin-right: 2.5rem;
+}
+section.left-container div.text,
+section.right-container div.text {
+  width: 40%;
+  margin: 5rem;
+}
+section.left-container div.text h2,
+section.right-container div.text h2 {
+  font-size: 250%;
+}
+section.left-container div.text p,
+section.right-container div.text p {
+  margin-top: 2rem;
+  font-size: 150%;
+  width: 80%;
+}
 header {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/header-background.png") no-repeat bottom;
   color: #FFFFFF;
@@ -336,93 +404,4 @@ body section.muchmore div.share {
     margin-top: 10px;
     margin-bottom: 0px;
   }
-}
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  text-align: center;
-  margin-top: 3rem;
-  background: url("../img/footer-background.png");
-}
-footer div {
-  width: 100%;
-}
-footer div h1 {
-  font-size: 500%;
-  margin: 5rem 0 5rem 0;
-}
-footer div h2 {
-  font-size: 300%;
-  margin-bottom: 2.5rem;
-}
-footer div button {
-  width: 30%;
-  margin-bottom: 10rem;
-  font-size: 120%;
-}
-footer div p {
-  margin-bottom: 3rem;
-  font-size: 2rem;
-  line-height: 1.1em;
-}
-section.left-container,
-section.right-container {
-  background-color: #222222;
-  width: 100%;
-  margin-top: 3rem;
-  padding: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: #FFFFFF;
-}
-section.left-container div.screenshots,
-section.right-container div.screenshots {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-items: flex-end;
-  width: 40%;
-}
-section.left-container div.screenshots div,
-section.right-container div.screenshots div {
-  margin-right: 2.5rem;
-}
-section.left-container div.text,
-section.right-container div.text {
-  width: 40%;
-  margin: 5rem;
-}
-section.left-container div.text h2,
-section.right-container div.text h2 {
-  font-size: 250%;
-}
-section.left-container div.text p,
-section.right-container div.text p {
-  margin-top: 2rem;
-  font-size: 150%;
-  width: 80%;
-}
-.team-photos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.team-photos div {
-  background-color: #FDFAFA;
-  border-radius: 5px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.11), 0px 1px 3px rgba(0, 0, 0, 0.08);
-  width: 150px;
-  text-align: center;
-  margin: 20px 10px;
-}
-.team-photos div h2 {
-  font-size: 120%;
-  margin-top: 0.5rem;
-}
-.team-photos div p {
-  margin: 0.3rem 0 0.5rem 0;
-  font-size: 105%;
 }
