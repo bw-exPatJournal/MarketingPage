@@ -1,5 +1,10 @@
 # Marketing Page
 
+## Deployed Page
+    - Our project is deployed here (https://bw-expatjournal.github.io/MarketingPage/index.html)
+
+    Capture is an Instagram / Image blogging competitor that allows users to create succinct feeds with images and descriptions of their travels. It allows users to view other profiles, their own images, and a list  favorites.
+
 ## Preconfiguration
 * [x] Put reoccurring colors in variables
 
@@ -20,12 +25,14 @@
 
 ## Alex
 * [x] Design mobile versions of index.html and team.html
+* [x] style index.html
 * [x] design contact.html
 * [x] Design mobile version of contact.html
 * [x] style contact.html
 * [x] Design mobile version of about.html
 
 ## Ous
+* [x] design index.html
 * [x] design about.html
 * [x] style about.html
 
