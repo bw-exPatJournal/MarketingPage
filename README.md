@@ -10,4 +10,4 @@ Capture is meant for those who have bit the bug to share their photos with the w
 
 The landing site for Capture is written in simple HTML and Less-compiled CSS. Once you've gone through the sign-in portal, you'll be directed to a React site for the photo hub.
 
-![capture screenshot](/screenshot.jpg)
+![capture screenshot](/screenshot.png)
